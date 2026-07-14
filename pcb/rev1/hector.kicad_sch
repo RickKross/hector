@@ -1,0 +1,131 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fd0805ea-9b07-4ca5-ad43-9d214fd53800")
+	(paper "A5" portrait)
+	(title_block
+		(title "Hector heyboard")
+		(date "2025-05-07")
+		(rev "v1")
+	)
+	(lib_symbols)
+	(text "Doubleclick me\nRight"
+		(exclude_from_sim no)
+		(at 72.39 98.425 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "2a2dacf9-1d87-487b-90d8-94a19e7cd7cd")
+	)
+	(text "Doubleclick me\nLeft"
+		(exclude_from_sim no)
+		(at 71.755 67.945 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5d0f7f39-2d16-453b-9c6e-ca1a3ef1794c")
+	)
+	(sheet
+		(at 23.876 58.166)
+		(size 105.41 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "14dfe26e-c495-4361-9f1f-49c7370915c4")
+		(property "Sheetname" "Left half"
+			(at 23.876 57.4544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "left.kicad_sch"
+			(at 23.876 80.3406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hector"
+				(path "/fd0805ea-9b07-4ca5-ad43-9d214fd53800"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 23.622 89.408)
+		(size 105.664 18.796)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cab8bd24-e888-45d3-b844-8db168363aa3")
+		(property "Sheetname" "Right half"
+			(at 23.622 88.6964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "right.kicad_sch"
+			(at 23.622 108.7886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hector"
+				(path "/fd0805ea-9b07-4ca5-ad43-9d214fd53800"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
